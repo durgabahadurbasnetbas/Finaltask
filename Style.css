@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: pink;
+  color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+  padding: 20px;
+}
+
+header .logo h1 {
+  font-size: 2.5rem;
+  margin-left: 20px;
+}
+
+header .navigation ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+header .navigation ul li {
+  margin-left: 15px;
+}
+
+header .navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: green;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+header .navigation ul li a:hover {
+  background-color: #003bb3;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('http://staff.hamk.fi/~tsaksa/temp/background-image.jpg');    
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  padding: 40px;
+  background-color:black (255, 255, 255, 0.8);
+}
+
+.text-content {
+  max-width: 600px;
+}
+
+.text-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.text-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.text-content button {
+  padding: 10px 20px;
+  background-color: red;
+  color: yellow;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.text-content button:hover {
+  background-color: #00b312;
+}
+
+.image img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color:black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.footer-area {
+  font-size: 1rem;
+}
+
+.footer-area:hover {
+  color: #ccc;
+}
+footer a{
+  color: white;
+}
+footer a:hover{
+  color: blue;
+}
